@@ -44,3 +44,12 @@
       @apply bg-white hover:bg-white/90 text-primary transition-all
     }
   }
+
+  .popular-joia-slider .swiper-wrapper {
+    @apply !h-[500px];
+  }
+
+  .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+  .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    @apply bg-accent;
+  }

@@ -1,3 +1,5 @@
+// import {sources} from 'next/dist/compiled/webpack/webpack'
+
 export default {
   name: 'product',
   title: 'Produtos',
@@ -28,6 +30,14 @@ export default {
       title: 'Imagens do Produto',
       type: 'array',
       of: [{type: 'image'}],
+    },
+    {
+      name: 'slug',
+      title: 'Slug do Produto',
+      type: 'slug',
+      options: {
+        source: 'name',
+      },
     },
     {
       name: 'categories',
