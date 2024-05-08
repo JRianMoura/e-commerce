@@ -24,7 +24,7 @@ const PopularItens = async () => {
   return (
     <section className="py-24">
       <div className="container mx-auto">
-        <h2 className="text-center">Joias Popular</h2>
+        <h2 className="text-center">As Mais Vendidas</h2>
         <p className="text-center mb-[30px]">
           O mundo das Joias Premium para seu gosto
         </p>
