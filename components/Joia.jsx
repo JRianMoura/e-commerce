@@ -35,7 +35,7 @@ const Joia = ({ joia }) => {
             btnStyles="btn-icon btn-accent"
             icon={<CgShoppingBag />}
           />
-          <Link href={`/product/${joia.slug}`}>
+          <Link href={`/products/${joia.slug}`}>
             <button className="btn-icon btn-primary">
               <CgEye />
             </button>
