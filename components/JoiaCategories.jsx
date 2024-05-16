@@ -27,7 +27,7 @@ const JoiaCategories = ({ joias }) => {
       <div className="container mx-auto">
         <div className="flex flex-col">
           {/*Barra Lateral */}
-          <aside className="w-full p-4 mb-8 xl:w-[300px] xl:h-[84vh] xl:fixed">
+          <aside className="w-full p-4 mb-8 xl:w-[300px] xl:h-[84vh] xl:absolute">
             <RadioGroup
               defaultValue="all"
               className="flex flex-col gap-6 mb-12"
