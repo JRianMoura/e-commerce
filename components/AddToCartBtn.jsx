@@ -1,4 +1,4 @@
-import React from "react";
+"use client";
 import { useShoppingCart } from "use-shopping-cart";
 import { useToast } from "./ui/use-toast";
 

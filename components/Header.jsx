@@ -18,7 +18,7 @@ const Header = () => {
           </h1>
         </Link>
         <div className="flex items-center gap-[26px]">
-          <Nav />
+          <Nav containerStyles="flex gap-[15px]" />
           <div
             onClick={() => handleCartClick()}
             className="relative cursor-pointer"
