@@ -40,7 +40,8 @@ const Footer = () => {
         </div>
       </div>
       <div className="py-6 border-t border-white/5 text-white/60">
-        Copyright &copy; 2024 Batistussi-Beauty. Todos os direitos reservados.
+        Copyright &copy; 2025 Mari Jewelry. Todos os direitos reservados{" "}
+        <a href="https://www.easyupbr.com">EASYUP</a>.
       </div>
     </footer>
   );
